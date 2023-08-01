@@ -11,9 +11,10 @@ numpy = "*"
 jupyter = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
-litestar = {extras = ["standard"], version = "*"}
+litestar = "==2.0.0beta4"
+pydantic = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+python_version = "3.8"

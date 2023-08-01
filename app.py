@@ -10,6 +10,8 @@ from litestar.contrib.sqlalchemy.plugins import SQLAlchemySerializationPlugin, S
 from sqlalchemy.exc import IntegrityError, NoResultFound
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 
+from api.cards.controller import CardController
+
 
 async def provide_transaction(db_session: AsyncSession) -> AsyncGenerator[AsyncSession, None]:
     try:
@@ -24,9 +26,8 @@ async def provide_transaction(db_session: AsyncSession) -> AsyncGenerator[AsyncS
 
 db_config = SQLAlchemyAsyncConfig(connection_string="sqlite+aiosqlite:///todo.sqlite")
 
-
 app = Litestar(
-    [],
+    [CardController, ],
     dependencies={"transaction": provide_transaction},
     plugins=[SQLAlchemySerializationPlugin(),
              SQLAlchemyInitPlugin(db_config),

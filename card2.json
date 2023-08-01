@@ -1,0 +1,132 @@
+{
+  "object": "card",
+  "id": "e33d9cf0-8138-4ae6-bbfe-02d48a4634c1",
+  "oracle_id": "8050907b-4007-4478-8ebd-25b8b2bf85c3",
+  "multiverse_ids": [],
+  "name": "Cat Beast",
+  "lang": "en",
+  "released_at": "2023-08-04",
+  "uri": "https://api.scryfall.com/cards/e33d9cf0-8138-4ae6-bbfe-02d48a4634c1",
+  "scryfall_uri": "https://scryfall.com/card/tcmm/61/cat-beast?utm_source=api",
+  "layout": "token",
+  "highres_image": true,
+  "image_status": "highres_scan",
+  "image_uris": {
+    "small": "https://cards.scryfall.io/small/front/e/3/e33d9cf0-8138-4ae6-bbfe-02d48a4634c1.jpg?1689796508",
+    "normal": "https://cards.scryfall.io/normal/front/e/3/e33d9cf0-8138-4ae6-bbfe-02d48a4634c1.jpg?1689796508",
+    "large": "https://cards.scryfall.io/large/front/e/3/e33d9cf0-8138-4ae6-bbfe-02d48a4634c1.jpg?1689796508",
+    "png": "https://cards.scryfall.io/png/front/e/3/e33d9cf0-8138-4ae6-bbfe-02d48a4634c1.png?1689796508",
+    "art_crop": "https://cards.scryfall.io/art_crop/front/e/3/e33d9cf0-8138-4ae6-bbfe-02d48a4634c1.jpg?1689796508",
+    "border_crop": "https://cards.scryfall.io/border_crop/front/e/3/e33d9cf0-8138-4ae6-bbfe-02d48a4634c1.jpg?1689796508"
+  },
+  "mana_cost": "",
+  "cmc": 0.0,
+  "type_line": "Token Creature — Cat Beast",
+  "oracle_text": "",
+  "power": "2",
+  "toughness": "2",
+  "colors": [
+    "W"
+  ],
+  "color_identity": [
+    "W"
+  ],
+  "keywords": [],
+  "all_parts": [
+    {
+      "object": "related_card",
+      "id": "c91c11ef-e036-4c54-98b7-83b7b25e7c1b",
+      "component": "combo_piece",
+      "name": "Felidar Retreat",
+      "type_line": "Enchantment",
+      "uri": "https://api.scryfall.com/cards/c91c11ef-e036-4c54-98b7-83b7b25e7c1b"
+    },
+    {
+      "object": "related_card",
+      "id": "e33d9cf0-8138-4ae6-bbfe-02d48a4634c1",
+      "component": "token",
+      "name": "Cat Beast",
+      "type_line": "Token Creature — Cat Beast",
+      "uri": "https://api.scryfall.com/cards/e33d9cf0-8138-4ae6-bbfe-02d48a4634c1"
+    }
+  ],
+  "legalities": {
+    "standard": "not_legal",
+    "future": "not_legal",
+    "historic": "not_legal",
+    "gladiator": "not_legal",
+    "pioneer": "not_legal",
+    "explorer": "not_legal",
+    "modern": "not_legal",
+    "legacy": "not_legal",
+    "pauper": "not_legal",
+    "vintage": "not_legal",
+    "penny": "not_legal",
+    "commander": "not_legal",
+    "oathbreaker": "not_legal",
+    "brawl": "not_legal",
+    "historicbrawl": "not_legal",
+    "alchemy": "not_legal",
+    "paupercommander": "not_legal",
+    "duel": "not_legal",
+    "oldschool": "not_legal",
+    "premodern": "not_legal",
+    "predh": "not_legal"
+  },
+  "games": [
+    "paper"
+  ],
+  "reserved": false,
+  "foil": true,
+  "nonfoil": true,
+  "finishes": [
+    "nonfoil",
+    "foil"
+  ],
+  "oversized": false,
+  "promo": false,
+  "reprint": true,
+  "variation": false,
+  "set_id": "3fa29655-8840-4a5b-8289-3964109e436b",
+  "set": "tcmm",
+  "set_name": "Commander Masters Tokens",
+  "set_type": "token",
+  "set_uri": "https://api.scryfall.com/sets/3fa29655-8840-4a5b-8289-3964109e436b",
+  "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Atcmm\u0026unique=prints",
+  "scryfall_set_uri": "https://scryfall.com/sets/tcmm?utm_source=api",
+  "rulings_uri": "https://api.scryfall.com/cards/e33d9cf0-8138-4ae6-bbfe-02d48a4634c1/rulings",
+  "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A8050907b-4007-4478-8ebd-25b8b2bf85c3\u0026unique=prints",
+  "collector_number": "61",
+  "digital": false,
+  "rarity": "common",
+  "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+  "artist": "Bayard Wu",
+  "artist_ids": [
+    "b089963c-610a-4d50-9206-d64b7caedef1"
+  ],
+  "illustration_id": "bb342311-3a21-458d-a4d3-1c85c93c20dd",
+  "border_color": "black",
+  "frame": "2015",
+  "full_art": false,
+  "textless": false,
+  "booster": false,
+  "story_spotlight": false,
+  "prices": {
+    "usd": null,
+    "usd_foil": null,
+    "usd_etched": null,
+    "eur": null,
+    "eur_foil": null,
+    "tix": null
+  },
+  "related_uris": {
+    "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Cat+Beast\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+    "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Cat+Beast\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+    "edhrec": "https://edhrec.com/route/?cc=Cat+Beast"
+  },
+  "purchase_uris": {
+    "tcgplayer": "https://www.tcgplayer.com/search/magic/product?productLineName=magic\u0026q=Cat+Beast\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall\u0026view=grid",
+    "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Cat+Beast\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+    "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Cat+Beast\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+  }
+},
