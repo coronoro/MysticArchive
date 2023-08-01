@@ -1,1 +1,3 @@
 # Mystic Archive
+
+`litestar run`
