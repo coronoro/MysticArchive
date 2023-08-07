@@ -16,6 +16,7 @@ pydantic = "*"
 aiosqlite = "*"
 rich = "*"
 jsbeautifier = "*"
+alembic = "*"
 
 [dev-packages]
 
