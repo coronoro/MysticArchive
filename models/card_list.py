@@ -3,7 +3,7 @@ from sqlalchemy.orm import Mapped
 
 
 class CardList(UUIDBase):
-    __tablename__ = "card-lists"
+    __tablename__ = "card_lists"
 
     name: Mapped[str]
     collector_number: Mapped[str]

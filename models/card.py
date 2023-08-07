@@ -2,7 +2,9 @@ from litestar.contrib.sqlalchemy.base import UUIDBase
 from select import select
 
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
+
+from models.card_set_card import CardSetCard
 
 
 class Card(UUIDBase):
@@ -12,6 +14,9 @@ class Card(UUIDBase):
     name: Mapped[str]
     collector_number: Mapped[str]
     image: Mapped[str]
+
+    sets: Mapped[list[CardSetCard]] = relationship()
+
 
 
 async def get_card_list(session: AsyncSession) -> list[Card]:
