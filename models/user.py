@@ -1,8 +1,8 @@
-from litestar.contrib.sqlalchemy.base import UUIDBase
 from sqlalchemy.orm import Mapped, relationship
+from models import DatabaseModel
 
 
-class User(UUIDBase):
+class User(DatabaseModel):
     __tablename__ = "users"
 
     name: Mapped[str]

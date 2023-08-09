@@ -1,8 +1,8 @@
-from litestar.contrib.sqlalchemy.base import UUIDBase
 from sqlalchemy.orm import Mapped
+from models import DatabaseModel
 
 
-class CardSet(UUIDBase):
+class CardSet(DatabaseModel):
     __tablename__ = "card_sets"
 
     name: Mapped[str]

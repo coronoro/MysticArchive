@@ -8,6 +8,7 @@ Create Date: ${create_date}
 """
 import warnings
 
+import litestar
 import sqlalchemy as sa
 from alembic import op
 from litestar.contrib.sqlalchemy.types import GUID, ORA_JSONB, DateTimeUTC
