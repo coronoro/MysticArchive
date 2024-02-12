@@ -11,12 +11,16 @@ numpy = "*"
 jupyter = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
-litestar = "==2.0.0beta4"
+litestar = {extras = ["sqlalchemy", "standard"], version = "*"}
 pydantic = "*"
 aiosqlite = "*"
 rich = "*"
 jsbeautifier = "*"
 alembic = "*"
+pydantic-settings = "*"
+asyncpg = "*"
+install = "*"
+advanced-alchemy = "*"
 
 [dev-packages]
 
